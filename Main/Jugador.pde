@@ -9,9 +9,10 @@ class Jugador extends GameObject {
       if (key == 's' || keyCode == 'S')  pos.y += vel;
       if (key == 'a' || keyCode == 'A')  pos.x -= vel;
       if (key == 'd' || keyCode == 'D') pos.x += vel;
-    }
+    } 
     pos.x = constrain(pos.x, r, width - r);
     pos.y = constrain(pos.y, r, height - r);
+    
   }
 
   public void draw() {
