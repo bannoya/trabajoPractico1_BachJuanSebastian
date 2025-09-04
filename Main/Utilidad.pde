@@ -14,4 +14,4 @@ static class Utilidad {
       posInicial.x += movX;
       posInicial.y += movY;
     }
-  }}
+  }}errrorrrr
